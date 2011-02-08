@@ -2,7 +2,7 @@ $(function() {
   var R = Raphael("header", 900, 300);
 
   var drawGear = function(x, y, size, opacity) {
-    var gear = R.image("/images/gear.png", x, y, size, size);
+    var gear = R.image("images/gear.png", x, y, size, size);
     gear.attr({opacity: opacity});
     return gear;
   }
