@@ -18,4 +18,9 @@ $(function() {
   rotateGear(gear1, 360);
   rotateGear(gear2, -360);
   rotateGear(gear3, 360);
+
+  $('#slider').nivoSlider({
+    effect: 'fade',
+    directionNav: false,
+  });
 });

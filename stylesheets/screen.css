@@ -16,7 +16,6 @@
          url('https://github.com/qrush/wedding/raw/gh-pages/stylesheets/Junction-webfont.svg#webfontATSw5sgI') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -29,7 +28,7 @@ h1 {
   font: 85px LindenHillRegular;
   color: #940D0D;
   margin-top: 100px;
-  padding-left: 100px;
+  padding-left: 115px;
   z-index: 9999;
   position: relative;
 }
@@ -37,7 +36,7 @@ h1 {
 h2 {
   color: #B73D12;
   font-size: 30px;
-  padding-left: 470px;
+  padding-left: 505px;
   z-index: 9999;
   position: relative;
 }
@@ -57,19 +56,106 @@ h2 {
 }
 
 .info img {
-  float: left;
   border-radius: 3px;
   border: 3px solid #000;
 }
 
 .info ul {
-  float: left;
   line-height: 28px;
   margin-top: 0px;
+}
+
+.ceremony img {
+  float: left;
+}
+
+.ceremony ul {
+  float: left;
   margin-left: 16px;
+}
+
+.reception img {
+  float: right;
+}
+
+.reception ul {
+  float: left;
+  text-align: right;
+  margin-left: 65px;
+}
+
+.reception h3 {
+  text-align: right;
+  margin-right: 0px;
 }
 
 svg {
   position: absolute;
   z-index: 1;
+}
+
+#slider {
+  width:940px;
+  height:300px;
+  background:url(images/loading.gif) no-repeat 50% 50%;
+}
+
+#slider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:none;
+}
+
+#slider a {
+  border:0;
+  display:block;
+}
+
+.nivo-controlNav {
+  position:absolute;
+  left:435px;
+  bottom:-42px;
+}
+.nivo-controlNav a {
+  display:block;
+  width:22px;
+  height:22px;
+  background:url(images/bullets.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+  margin-right:3px;
+  float:left;
+}
+.nivo-controlNav a.active {
+  background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+  display:block;
+  width:30px;
+  height:30px;
+  background:url(images/arrows.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+}
+a.nivo-nextNav {
+  background-position:-30px 0;
+  right:15px;
+}
+a.nivo-prevNav {
+  left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+#slideshow {
+  height: 330px;
 }
