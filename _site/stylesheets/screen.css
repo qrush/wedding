@@ -30,12 +30,16 @@ h1 {
   color: #940D0D;
   margin-top: 100px;
   padding-left: 100px;
+  z-index: 9999;
+  position: relative;
 }
 
 h2 {
   color: #B73D12;
   font-size: 30px;
   padding-left: 470px;
+  z-index: 9999;
+  position: relative;
 }
 
 #header {
@@ -63,4 +67,9 @@ h2 {
   line-height: 28px;
   margin-top: 0px;
   margin-left: 16px;
+}
+
+svg {
+  position: absolute;
+  z-index: 1;
 }
