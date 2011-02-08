@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'LindenHillRegular';
-    src: url('/stylesheets/LindenHill-webfont.eot?') format('eot'),
-         url('/stylesheets/LindenHill-webfont.woff') format('woff'),
-         url('/stylesheets/LindenHill-webfont.ttf') format('truetype'),
-         url('/stylesheets/LindenHill-webfont.svg#webfontrHfAltGz') format('svg');
+    src: url('stylesheets/LindenHill-webfont.eot?') format('eot'),
+         url('stylesheets/LindenHill-webfont.woff') format('woff'),
+         url('stylesheets/LindenHill-webfont.ttf') format('truetype'),
+         url('stylesheets/LindenHill-webfont.svg#webfontrHfAltGz') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'junctionregularRegular';
-    src: url('/stylesheets/Junction-webfont.eot?') format('eot'),
-         url('/stylesheets/Junction-webfont.woff') format('woff'),
-         url('/stylesheets/Junction-webfont.ttf') format('truetype'),
-         url('/stylesheets/Junction-webfont.svg#webfontATSw5sgI') format('svg');
+    src: url('stylesheets/Junction-webfont.eot?') format('eot'),
+         url('stylesheets/Junction-webfont.woff') format('woff'),
+         url('stylesheets/Junction-webfont.ttf') format('truetype'),
+         url('stylesheets/Junction-webfont.svg#webfontATSw5sgI') format('svg');
     font-weight: normal;
     font-style: normal;
 
