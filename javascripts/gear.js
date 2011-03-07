@@ -1,9 +1,8 @@
 $(window).load(function() {
-  /*
   var R = Raphael("header", 900, 300);
 
   var drawGear = function(x, y, size, opacity) {
-    var gear = R.image("images/gear.png", x, y, size, size);
+    var gear = R.image("/images/gear.png", x, y, size, size);
     gear.attr({opacity: opacity});
     return gear;
   }
@@ -16,19 +15,11 @@ $(window).load(function() {
   var gear2 = drawGear(228, 200, 75, 0.2);
   var gear3 = drawGear(210, -450, 700, 0.25);
 
-  rotateGear(gear1, 360);
-  rotateGear(gear2, -360);
-  rotateGear(gear3, 360);
-  */
+  if(!$.browser.msie) {
+    rotateGear(gear1, 360);
+    rotateGear(gear2, -360);
+    rotateGear(gear3, 360);
+  }
 
-  //alert("haters..")
-  $('#slider').nivoSlider({
-    //effect: 'sliceDown',
-  //  directionNav: false,
-  });
-
-  //$('#slider').nivoSlider()
-  //  effect: 'fade',
-  //  directionNav: false,
-  //});
+  $('#slider').nivoSlider();
 });

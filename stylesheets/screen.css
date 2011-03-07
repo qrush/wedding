@@ -27,22 +27,26 @@ body {
 h1 {
   font: 85px LindenHillRegular;
   color: #940D0D;
-  margin-top: 100px;
+  top: 100px;
   padding-left: 115px;
   z-index: 9999;
-  position: relative;
+  position: absolute;
 }
 
 h2 {
   color: #B73D12;
+  top: 200px;
   font-size: 30px;
   padding-left: 505px;
   z-index: 9999;
-  position: relative;
+  position: absolute;
 }
 
 #header {
+  height: 300px;
+  /*
   margin-bottom: 60px;
+  */
 }
 
 #slideshow {
@@ -51,8 +55,9 @@ h2 {
 }
 
 .info h3 {
+  margin-top: 3px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .info img {
@@ -63,6 +68,15 @@ h2 {
 .info ul {
   line-height: 28px;
   margin-top: 0px;
+  font-size: 16px;
+}
+
+.ceremony ul {
+  width: 245px;
+}
+
+.reception ul {
+  width: 181px;
 }
 
 .ceremony img {
