@@ -1,4 +1,5 @@
-$(function() {
+$(window).load(function() {
+  /*
   var R = Raphael("header", 900, 300);
 
   var drawGear = function(x, y, size, opacity) {
@@ -18,9 +19,16 @@ $(function() {
   rotateGear(gear1, 360);
   rotateGear(gear2, -360);
   rotateGear(gear3, 360);
+  */
 
+  //alert("haters..")
   $('#slider').nivoSlider({
-    effect: 'fade',
-    directionNav: false,
+    //effect: 'sliceDown',
+  //  directionNav: false,
   });
+
+  //$('#slider').nivoSlider()
+  //  effect: 'fade',
+  //  directionNav: false,
+  //});
 });

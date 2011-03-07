@@ -3,21 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <title>nick + amanda</title>
-    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
-    <link rel="stylesheet" href="stylesheets/960.css" type="text/css">
-    <link rel="stylesheet" href="stylesheets/screen.css" type="text/css">
-    <script src="javascripts/jquery.js"></script>
-    <script src="javascripts/raphael.js"></script>
-    <script src="javascripts/nivo.js"></script>
-    <script src="javascripts/gear.js"></script>
+    <link rel="stylesheet" href="/stylesheets/reset.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/960.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/nivo-slider.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css">
+    <script src="/javascripts/jquery.js"></script>
+    <!--
+    <script src="/javascripts/raphael.js"></script>
+    -->
+    <script src="/javascripts/nivo.js"></script>
+    <script src="/javascripts/gear.js"></script>
   </head>
   <body>
-    <section id="container" class="container_12">
-      <section id="header" class="grid_12">
+    <div id="container" class="container_12">
+      <div id="header" class="grid_12">
         <h1>Nick &amp; Amanda</h1>
         <h2>September 3rd, 2011</h2>
-      </section>
-      <section class="prefix_1 grid_5 info ceremony">
+      </div>
+      <div class="prefix_1 grid_5 info ceremony">
         <h3>Ceremony</h3>
         <img src="http://maps.google.com/maps/api/staticmap?center=43.0595,-78.839&size=110x110&sensor=false&zoom=13&markers=43.0595,-78.839|&maptype=terrain" />
         <ul>
@@ -26,8 +29,8 @@
           <li>800 Niagara Falls Blvd</li>
           <li>North Tonawanda, NY 14120</li>
         </ul>
-      </section>
-      <section class="grid_5 suffix_1 info reception">
+      </div>
+      <div class="grid_5 suffix_1 info reception">
         <h3>Reception</h3>
         <img src="http://maps.google.com/maps/api/staticmap?center=43.088604,-78.891706&size=110x110&sensor=false&zoom=13&markers=43.088604,-78.891706|&maptype=terrain" />
         <ul>
@@ -36,14 +39,14 @@
           <li>2843 Niagara Falls Blvd</li>
           <li>Niagara Falls, NY 14304</li>
         </ul>
-      </section>
-      <section id="slideshow" class="grid_12">
-        <div id="slider">
-          <img src="images/slideshow1.png" alt="" />
-          <img src="images/slideshow2.png" alt="" />
-          <img src="images/slideshow3.png" alt="" />
+      </div>
+      <div id="slideshow" class="grid_12">
+        <div id="slider" class="nivoSlider">
+          <img src="/images/slideshow1.png" alt="" />
+          <img src="/images/slideshow2.png" alt="" />
+          <img src="/images/slideshow3.png" alt="" />
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
   </body>
 </html>
