@@ -129,9 +129,10 @@ svg {
 
 .nivo-controlNav {
   position:absolute;
-  left:435px;
-  bottom:-42px;
+  left: 417px;
+  bottom: -42px;
 }
+
 .nivo-controlNav a {
   display:block;
   width:22px;
